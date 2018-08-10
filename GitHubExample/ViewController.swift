@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 let message = "Hello Git!"
+    
+    @IBOutlet var lbl_string: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         print(message)
