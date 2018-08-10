@@ -19,7 +19,9 @@ let message = "Hello Git!"
     }
 
     func reverse(text: String) -> String {
+         lbl_string.text = text
         return String(text.reversed())
+       
     }
     
     override func didReceiveMemoryWarning() {
